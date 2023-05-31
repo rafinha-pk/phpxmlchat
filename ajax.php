@@ -12,7 +12,7 @@ session_save_path('./');
 session_start();
 
 // pega o nome
-$username = $_SESSION['nome'];
+$username = (isset($_SESSION['nome'])) ? $_SESSION['nome'] : "user";
 
 // pega o id da session
 $chat_id = session_id();
