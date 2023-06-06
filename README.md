@@ -10,3 +10,6 @@ Esse projeto foi criado para testar de maneira simples o uso das sessions do PHP
 - ``W3.css``
 - ``jquery/ajax``
 - ``xml``
+
+
+![Captura de tela do chat](exemplo.png)
